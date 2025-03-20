@@ -151,8 +151,6 @@ if __name__ == '__main__':
     # Temporarily set its curve to None; we assign the curve object immediately after.
     # Create the curve object and then update G's curve.
     curve = EllipticCurve(p, a, b, Gx, Gy, n)
-    G = ECPoint(curve, Gx, Gy)
-    curve.G = G
 
     # Instantiate ECDSA with the defined curve.
     ecdsa = ECDSA(curve)
