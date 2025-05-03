@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+
+# Hardhat
+cache/
+artifacts/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Mac OS
+.DS_Store 
