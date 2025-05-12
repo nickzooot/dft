@@ -114,3 +114,35 @@ To publish your own poem, modify the `publish-poem.js` script:
     - `tokenId`: The ID of the token
   - Returns: The poem text as a string
 
+
+
+## Testing
+
+The project includes comprehensive tests to verify the functionality of the PoetryNFT contract:
+
+```bash
+
+# Run PoetryNFT tests
+npx hardhat test test/PoetryNFTTests.js
+```
+
+The PoetryNFTTests.js file contains tests that:
+
+1. Verify basic contract functionality (name, symbol)
+2. Test publishing poems and storing them on-chain
+3. Check error handling for invalid inputs
+4. Publish sample test poems and verify their storage
+5. Log contract deployment addresses for reference
+
+
+
+Sample output:
+```
+Contract deployed to: 0x18F857Fb529CA521f1Dab6477FC3E1d54feC813E
+Contract owner: 0x724e3A05511dBe20e59Af9ef7561993Bff6DA209
+Publishing poem: Test Poem 1
+Token ID 1 | Title: Test Poem 1 | Owner: 0x724e3A05511dBe20e59Af9ef7561993Bff6DA209
+```
+
+
+
