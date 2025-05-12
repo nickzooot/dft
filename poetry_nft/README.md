@@ -9,7 +9,6 @@ This project demonstrates how to create, deploy, and interact with a smart contr
 - Full on-chain storage of poetry text
 - Automatic minting of NFTs to poem authors
 - Verifiable ownership through the Ethereum blockchain
-- Ability to retrieve poem text by token ID
 
 ## Prerequisites
 
